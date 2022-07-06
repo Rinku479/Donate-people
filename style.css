@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-view {
+    background-image: url(Images/donation13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.message {
+    padding-bottom: 30px;
+    font-weight: lighter;
+}
+
+.donate-button1 {
+    text-decoration: none;
+    color: rgb(231, 235, 8);
+    background-image: linear-gradient(to top right, rgb(192, 62, 62), rgb(205, 87, 87));
+    font-size: 90%;
+    border-radius: 5px;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.donate {
+    text-align: center;
+}
+
+.amount {
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.taka {
+    border: 1px;
+    padding: 15px 20px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.selected {
+    border: 1px solid;
+    padding: 15px 20px;
+    margin: 10px;
+    background-color: rgb(223, 237, 249);
+}
+
+.other-amount {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgba(128, 126, 126, 0.413);
+    margin-left: 400px;
+    margin-right: 400px;
+    color: rgba(128, 126, 126, 0.413);
+}
+
+.donate-button2 {
+    text-decoration: none;
+    color: rgb(213, 216, 18);
+    background-image: linear-gradient(to top right, rgb(205, 87, 87), rgb(205, 87, 87));
+    font-size: 80%;
+    border-radius: 5px;
+    text-align: center;
+    width: 6%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+h4 {
+    padding: 10px 5px;
+}
+
+.donation-plan {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#food {
+    background-color: rgb(205, 255, 255);
+    width: 15%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#food img {
+    width: 30%;
+}
+
+#shelter {
+    background-color: rgb(242, 205, 255);
+    width: 15%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#shelter img {
+    width: 25%;
+}
+
+#education {
+    background-color: rgb(255, 252, 205);
+    width: 15%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#education img {
+    width: 30%;
+}
+
+.subscrive {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 184, 107);
+    margin: 0px 400px;
+}
+
+.email {
+    padding: 30px;
+}
+
+.input {
+    background-color: rgb(249, 248, 253);
+    border: none;
+    padding: 4px;
+}
+
+.submit {
+    background-color: rgb(238, 83, 83);
+    border: none;
+    font-size: 10px;
+    padding: 4px;
+}
+
+.footer {
+    background-color: black;
+    color: rgb(185, 212, 26);
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: larger;
+}
